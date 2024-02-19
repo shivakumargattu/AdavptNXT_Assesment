@@ -16,22 +16,11 @@ Install Dependencies:
 Run npm install to install the necessary packages.
 Run the Application:
 
-Execute npm start to start the development server.
-Open your browser and go to http://localhost:3000 to view the application.
-Deployment on Netlify
-Sign up for Netlify:
 
-If you don't have a Netlify account, sign up at Netlify.
-Connect to GitHub:
-
-Connect your GitHub repository to Netlify.
-Configure Build Settings:
 
 Set up build settings if required (usually, Create React App projects work out of the box).
 Deploy:
 
-Deploy your React app to Netlify.
-Access Deployed Site:
 
 Once deployed, your site will be accessible at the provided Netlify domain (e.g., https://your-app-name.netlify.app).
 README.md Additional Information

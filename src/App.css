@@ -1,38 +1,113 @@
-.App {
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #ffffff; /* Set your desired background color for the navbar */
+  padding: 10px;
+  
+  cursor: pointer;
+  border-bottom:  10px rgb(234, 232, 232) solid;
+}
+.border{
+  
+  box-shadow: 20px 20px 20px 50px rgb(240, 239, 239);
+  background-color: #fff;
+  border-bottom: 5px rgb(249, 248, 248) solid;
+}
+
+ul{
+  list-style-type:none;
+  display: flex;
+
+}
+
+li{
+  margin-left:20px ;
+}
+.main-container{
+  display: flex;
+}
+/* App.css */
+
+.app {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
+}
+
+.sidebar-item {
+  cursor: pointer;
+  margin-bottom: 10px;
+  
+  
+}
+
+.text-dashbrod{
+  font-size: 21px;
+}
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #e8eaec;
+  height: 100vh;
+}
+
+
+
+.order-status {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.status-item {
+  flex: 1;
   text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.order-table {
+  overflow-x: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.oprations{
+  display: inline;
+  display: flex;
+  
+}
+.section{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  align-items: center;
 }
